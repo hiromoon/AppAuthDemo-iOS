@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SampleSafariViewer.xcodeproj">
+      location = "self:AppAuthDemo-iOS.xcodeproj">
    </FileRef>
 </Workspace>

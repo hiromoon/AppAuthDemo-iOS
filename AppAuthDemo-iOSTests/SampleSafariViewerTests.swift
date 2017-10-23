@@ -1,15 +1,15 @@
 //
-//  SampleSafariViewerTests.swift
-//  SampleSafariViewerTests
+//  AppAuthDemo-iOSTests.swift
+//  AppAuthDemo-iOSTests
 //
 //  Created by 吉原大夢 on 2017/05/30.
 //  Copyright © 2017年 吉原大夢. All rights reserved.
 //
 
 import XCTest
-@testable import SampleSafariViewer
+@testable import AppAuthDemo-iOS
 
-class SampleSafariViewerTests: XCTestCase {
+class AppAuthDemo-iOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
