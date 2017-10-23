@@ -1,0 +1,7 @@
+name: AppAuth, nameSpecified: 
+body: 
+                   …
+
+add-version-numbers: false
+
+LicensePlist Version: 1.7.0

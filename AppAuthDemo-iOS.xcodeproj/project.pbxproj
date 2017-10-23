@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		930CDFB65982399E33A61EB4 /* Pods_AppAuthDemo_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446BF5F2506108ACD83104C /* Pods_AppAuthDemo_iOSTests.framework */; };
+		AD4F10D31F9E960B004D7977 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD4F10D21F9E960B004D7977 /* Settings.bundle */; };
 		AD910F801EDCC7ED00609F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD910F7F1EDCC7ED00609F99 /* AppDelegate.swift */; };
 		AD910F821EDCC7ED00609F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD910F811EDCC7ED00609F99 /* ViewController.swift */; };
 		AD910F851EDCC7ED00609F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD910F831EDCC7ED00609F99 /* Main.storyboard */; };
@@ -25,14 +26,14 @@
 			containerPortal = AD910F741EDCC7ED00609F99 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD910F7B1EDCC7ED00609F99;
-			remoteInfo = AppAuthDemo-iOS;
+			remoteInfo = "AppAuthDemo-iOS";
 		};
 		AD910F9C1EDCC7EE00609F99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AD910F741EDCC7ED00609F99 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD910F7B1EDCC7ED00609F99;
-			remoteInfo = AppAuthDemo-iOS;
+			remoteInfo = "AppAuthDemo-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,6 +42,7 @@
 		530559317EB770933EC3C97B /* Pods-AppAuthDemo-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthDemo-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthDemo-iOSUITests/Pods-AppAuthDemo-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9446BF5F2506108ACD83104C /* Pods_AppAuthDemo_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthDemo_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBAFB771E429BBD59B68963 /* Pods_AppAuthDemo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthDemo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4F10D21F9E960B004D7977 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		AD910F7C1EDCC7ED00609F99 /* AppAuthDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppAuthDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD910F7F1EDCC7ED00609F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD910F811EDCC7ED00609F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,10 +51,10 @@
 		AD910F891EDCC7EE00609F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD910F8B1EDCC7EE00609F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD910F901EDCC7EE00609F99 /* AppAuthDemo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppAuthDemo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD910F941EDCC7EE00609F99 /* AppAuthDemo-iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthDemo-iOSTests.swift; sourceTree = "<group>"; };
+		AD910F941EDCC7EE00609F99 /* AppAuthDemo-iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppAuthDemo-iOSTests.swift"; sourceTree = "<group>"; };
 		AD910F961EDCC7EE00609F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD910F9B1EDCC7EE00609F99 /* AppAuthDemo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppAuthDemo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD910F9F1EDCC7EE00609F99 /* AppAuthDemo-iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthDemo-iOSUITests.swift; sourceTree = "<group>"; };
+		AD910F9F1EDCC7EE00609F99 /* AppAuthDemo-iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppAuthDemo-iOSUITests.swift"; sourceTree = "<group>"; };
 		AD910FA11EDCC7EE00609F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B46B648F54CA37D44C398B81 /* Pods_AppAuthDemo_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthDemo_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0954B4DA043D5892576D7D /* Pods-AppAuthDemo-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthDemo-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthDemo-iOSTests/Pods-AppAuthDemo-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		AD910F731EDCC7ED00609F99 = {
 			isa = PBXGroup;
 			children = (
+				AD4F10D21F9E960B004D7977 /* Settings.bundle */,
 				AD910F7E1EDCC7ED00609F99 /* AppAuthDemo-iOS */,
 				AD910F931EDCC7EE00609F99 /* AppAuthDemo-iOSTests */,
 				AD910F9E1EDCC7EE00609F99 /* AppAuthDemo-iOSUITests */,
@@ -184,7 +187,7 @@
 			dependencies = (
 			);
 			name = "AppAuthDemo-iOS";
-			productName = AppAuthDemo-iOS;
+			productName = "AppAuthDemo-iOS";
 			productReference = AD910F7C1EDCC7ED00609F99 /* AppAuthDemo-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -205,7 +208,7 @@
 				AD910F921EDCC7EE00609F99 /* PBXTargetDependency */,
 			);
 			name = "AppAuthDemo-iOSTests";
-			productName = AppAuthDemo-iOSTests;
+			productName = "AppAuthDemo-iOSTests";
 			productReference = AD910F901EDCC7EE00609F99 /* AppAuthDemo-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -226,7 +229,7 @@
 				AD910F9D1EDCC7EE00609F99 /* PBXTargetDependency */,
 			);
 			name = "AppAuthDemo-iOSUITests";
-			productName = AppAuthDemo-iOSUITests;
+			productName = "AppAuthDemo-iOSUITests";
 			productReference = AD910F9B1EDCC7EE00609F99 /* AppAuthDemo-iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4F10D31F9E960B004D7977 /* Settings.bundle in Resources */,
 				AD910F8A1EDCC7EE00609F99 /* LaunchScreen.storyboard in Resources */,
 				AD910F871EDCC7ED00609F99 /* Assets.xcassets in Resources */,
 				AD910F851EDCC7ED00609F99 /* Main.storyboard in Resources */,
@@ -652,9 +656,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = G8H546X7TR;
-				INFOPLIST_FILE = AppAuthDemo-iOSTests/Info.plist;
+				INFOPLIST_FILE = "AppAuthDemo-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.moon428.AppAuthDemo-iOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.moon428.AppAuthDemo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -669,9 +673,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = G8H546X7TR;
-				INFOPLIST_FILE = AppAuthDemo-iOSTests/Info.plist;
+				INFOPLIST_FILE = "AppAuthDemo-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.moon428.AppAuthDemo-iOSTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.moon428.AppAuthDemo-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -685,13 +689,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G8H546X7TR;
-				INFOPLIST_FILE = AppAuthDemo-iOSUITests/Info.plist;
+				INFOPLIST_FILE = "AppAuthDemo-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.moon428.AppAuthDemo-iOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.moon428.AppAuthDemo-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = AppAuthDemo-iOS;
+				TEST_TARGET_NAME = "AppAuthDemo-iOS";
 			};
 			name = Debug;
 		};
@@ -701,13 +705,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G8H546X7TR;
-				INFOPLIST_FILE = AppAuthDemo-iOSUITests/Info.plist;
+				INFOPLIST_FILE = "AppAuthDemo-iOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.moon428.AppAuthDemo-iOSUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.moon428.AppAuthDemo-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = AppAuthDemo-iOS;
+				TEST_TARGET_NAME = "AppAuthDemo-iOS";
 			};
 			name = Release;
 		};
